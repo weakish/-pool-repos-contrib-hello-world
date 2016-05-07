@@ -1,0 +1,10 @@
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+hello-*
+hello.cmi
+hello.cmo
+hello.hi
+hello.jar
+modules/
