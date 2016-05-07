@@ -7,11 +7,13 @@ done
 
 echo 'Ceylon' >> footprint.txt
 time -a -o footprint.txt ceylon run default
+du -h modules/default/default.car >> footprint.txt
 echo 'Kotlin' >> footprint.txt
 time -a -o footprint.txt java -jar hello.jar
 du -h hello.jar >> footprint.txt
 echo 'Swift' >> footprint.txt
 time -a -o footprint.txt ./hello-swift
+du -h hello-swift >> footprint.txt
 echo 'Go' >> footprint.txt
 time -a -o footprint.txt ./hello-go
 du -h hello-go >> footprint.txt
