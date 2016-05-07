@@ -7,7 +7,8 @@ done
 
 echo 'Ceylon' >> footprint.txt
 time -a -o footprint.txt ceylon run default
-du -h modules/default/default.car >> footprint.txt
+# `car` file requires Ceylon runtime to run,
+# so we do not measure its disk usage.
 echo 'Kotlin' >> footprint.txt
 time -a -o footprint.txt java -jar hello.jar
 du -h hello.jar >> footprint.txt

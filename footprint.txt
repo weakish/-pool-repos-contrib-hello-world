@@ -43,7 +43,6 @@ hello3.py
 Ceylon
 5.27user 0.12system 0:02.73elapsed 197%CPU (0avgtext+0avgdata 187156maxresident)k
 0inputs+0outputs (0major+19504minor)pagefaults 0swaps
-4.0K	modules/default/default.car
 Kotlin
 0.07user 0.02system 0:00.08elapsed 101%CPU (0avgtext+0avgdata 19236maxresident)k
 0inputs+0outputs (0major+3433minor)pagefaults 0swaps
