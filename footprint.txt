@@ -1,0 +1,64 @@
+hello.bash
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 1412maxresident)k
+0inputs+0outputs (0major+416minor)pagefaults 0swaps
+hello.fish
+0.10user 0.09system 0:00.16elapsed 117%CPU (0avgtext+0avgdata 6672maxresident)k
+0inputs+0outputs (0major+15632minor)pagefaults 0swaps
+hello.js
+0.17user 0.00system 0:00.18elapsed 99%CPU (0avgtext+0avgdata 15676maxresident)k
+0inputs+0outputs (0major+4429minor)pagefaults 0swaps
+hello.lua
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 1000maxresident)k
+0inputs+0outputs (0major+313minor)pagefaults 0swaps
+hello.luajit
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 872maxresident)k
+0inputs+0outputs (0major+282minor)pagefaults 0swaps
+hello.mksh
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 812maxresident)k
+0inputs+0outputs (0major+246minor)pagefaults 0swaps
+hello.pl
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 1804maxresident)k
+0inputs+0outputs (0major+511minor)pagefaults 0swaps
+hello.py
+0.02user 0.01system 0:00.04elapsed 97%CPU (0avgtext+0avgdata 6020maxresident)k
+0inputs+0outputs (0major+1675minor)pagefaults 0swaps
+hello.rb
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 5000maxresident)k
+0inputs+0outputs (0major+1344minor)pagefaults 0swaps
+hello.rc
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 804maxresident)k
+0inputs+0outputs (0major+253minor)pagefaults 0swaps
+hello.rkt
+0.25user 0.04system 0:00.30elapsed 99%CPU (0avgtext+0avgdata 41648maxresident)k
+0inputs+0outputs (0major+12130minor)pagefaults 0swaps
+hello.sh
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 664maxresident)k
+0inputs+0outputs (0major+209minor)pagefaults 0swaps
+hello.ss
+0.09user 0.01system 0:00.11elapsed 99%CPU (0avgtext+0avgdata 24832maxresident)k
+0inputs+0outputs (0major+8509minor)pagefaults 0swaps
+hello3.py
+0.02user 0.00system 0:00.03elapsed 96%CPU (0avgtext+0avgdata 5916maxresident)k
+0inputs+0outputs (0major+1625minor)pagefaults 0swaps
+Ceylon
+5.67user 0.14system 0:02.99elapsed 194%CPU (0avgtext+0avgdata 192624maxresident)k
+0inputs+0outputs (0major+24981minor)pagefaults 0swaps
+Kotlin
+0.06user 0.02system 0:00.08elapsed 102%CPU (0avgtext+0avgdata 19344maxresident)k
+0inputs+0outputs (0major+3460minor)pagefaults 0swaps
+788K	hello.jar
+Swift
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 3320maxresident)k
+0inputs+0outputs (0major+903minor)pagefaults 0swaps
+Go
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 932maxresident)k
+0inputs+0outputs (0major+279minor)pagefaults 0swaps
+2.2M	hello-go
+Haskell
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 1540maxresident)k
+0inputs+0outputs (0major+457minor)pagefaults 0swaps
+1.1M	hello-hs
+OCaml
+0.00user 0.00system 0:00.00elapsed 100%CPU (0avgtext+0avgdata 1016maxresident)k
+0inputs+0outputs (0major+318minor)pagefaults 0swaps
+16K	hello-ml
