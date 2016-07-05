@@ -5,6 +5,8 @@
 hello-*
 hello.cmi
 hello.cmo
+hello.cmx
 hello.hi
 hello.jar
+hello.o
 modules/
