@@ -50,7 +50,7 @@ On my machine (`amd64`, Intel i3-3217U, 4G Ram, SSD, Ubuntu 14.04):
     - ocaml 4.01.0
     - perl v5.18.2
     - rc 1.7.1-5
-    - swift 3.0-dev (LLVM 752e1430fc, Clang 3987718dae, Swift 36739f7b57)
+    - swift 3.0-PREVIEW-1
 
 * Normal
 
@@ -75,14 +75,16 @@ On my machine (`amd64`, Intel i3-3217U, 4G Ram, SSD, Ubuntu 14.04):
 For compiled size:
 
 ```
-2.2M    hello-go
-1.1M    hello-hs
-788K    hello.jar
-16K     hello-ml
-16K     hello-swift
+788K+6.8M    Kotlin+avian
+4.8M    Swift
+2.2M    Go
+1.1M    Haskell
+176K    OCaml
 ```
 
-OCaml and Swift are impressively slim.
+`avian` is a light-weight JVM,
+(`1.3.0-SNAPSHOT` compiled with `process=interpret`)
+
 
 Choice
 -------
