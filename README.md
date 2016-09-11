@@ -54,36 +54,39 @@ On my machine (`amd64`, Intel i3-3217U, 4G Ram, SSD, Ubuntu 14.04):
 
 * Normal
 
-    - fish 2.2.0-487
-    - iojs v2.0.0
-    - kotlin 1.0.1-2 (JRE 1.7.0_80-b15)
+    - fish 2.2.0-809
+    - node v4.4.7
+    - kotlin 1.0.1-2 (JRE 1.7.0_111)
     - petite 8.4
     - python 2.7.6
     - python 3.4.3
     - ruby 1.9.3p484
+    - ceylon 1.2.3 (JRE 1.7.0_111)
 
 * Heavy
 
     - racket v5.3.6
 
-* Extra heavy
 
-    - ceylon 1.2.0 (JRE 1.7.0_80-b15)
 
 ### Compiled size
 
 For compiled size:
 
 ```
-788K+6.8M    Kotlin+avian
+788K+1.4M    Kotlin+avian
+2.6M+1.4M    Ceylon+avian
 4.8M    Swift
 2.2M    Go
 1.1M    Haskell
 176K    OCaml
 ```
 
-`avian` is a light-weight JVM,
-(`1.3.0-SNAPSHOT` compiled with `process=interpret`)
+`avian` is a light-weight JVM, supporting a subset of OpenJDK classes
+(`1.3.0-SNAPSHOT` compiled with `process=interpret`).
+`avian` 6.8M is uncompressed. Compressed size is 1.4M.
+OpenJDK can be stripped to a minimal headless JRE,
+from around 100M to 30M (uncompressed) and 12M compressed.
 
 
 Choice

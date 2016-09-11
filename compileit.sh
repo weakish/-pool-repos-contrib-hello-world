@@ -1,4 +1,4 @@
-ceylon compile source/hello.ceylon
+ceylon compile $(ceylon version); ceylon fat-jar $(ceylon version)
 kotlinc -include-runtime hello.kt -d hello.jar
 swiftc -static-stdlib -gnone -O hello.swift -o hello-swift
 go build -o hello-go hello.go

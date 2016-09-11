@@ -6,9 +6,8 @@ for i in bin/*; do
 done
 
 echo 'Ceylon' >> footprint.txt
-time -a -o footprint.txt ceylon run default
-# `car` file requires Ceylon runtime to run,
-# so we do not measure its disk usage.
+time -a -o footprint.txt java -jar com.example.hello-0.0.0.jar
+du -h com.example.hello-0.0.0.jar >> footprint.txt
 echo 'Kotlin' >> footprint.txt
 time -a -o footprint.txt java -jar hello.jar
 du -h hello.jar >> footprint.txt
